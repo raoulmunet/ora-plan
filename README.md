@@ -59,6 +59,12 @@ Output:
 
 This tool explains plan structure; it does **not** claim to determine the best plan automatically. Correct tuning still depends on table sizes, statistics, predicates, cardinality estimates, skew, bind values, partitioning and workload context.
 
+## Visual demo
+
+A static visual preview is included in [`docs/index.html`](docs/index.html).
+
+To publish it with GitHub Pages: **Settings → Pages → Deploy from a branch → `main` → `/docs`**. The repository is already prepared with `docs/.nojekyll`.
+
 ## Oracle Dev Tools family
 
 This repository is part of the **Oracle Dev Tools** suite: small, composable developer utilities designed around Oracle Database 19c, 23ai and 26ai.
